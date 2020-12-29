@@ -1,4 +1,3 @@
-
 abstract class AbstractKoma {
   String name;
   int x;
