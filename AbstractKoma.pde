@@ -12,7 +12,6 @@ abstract class AbstractKoma {
     this.team = team;
     this.kStat = new KomaStatus(active);
   }
-
   void draw() {
     String komaImage = "";
     if (this.team==0 && this.kStat.active) komaImage = this.name+"A.png";
